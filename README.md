@@ -2,6 +2,7 @@
 This repository hosts the framework for the preprocessing and classification of LIBS spectra develloped by the ERC SPEGEOCHERT, to reconstruct human mobility in the Pyrenees. Develloped by Julien Le Guirriec, pre-doc researcher and Jonàs Alcaina-Mateos, post-doc researcher.
 
 Usage :
+
 Control_card.py : standalone script to build control charts, optimised for the Z-903 SciAps handheld LIBS. Requires to be modified for paths to a reference dataset folder, and experimental dataset folder, and calls for LIBS_class.py
 
 LIBS_class.py : backbone of the projects, contains class and functions to read, process, plot and export large quantities of LIBS spectra. 
